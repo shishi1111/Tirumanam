@@ -1,0 +1,155 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.tirumanamonline"
+4    android:versionCode="6"
+5    android:versionName="2.3" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="31" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->C:\Users\stars\Desktop\Finish-Tirumanam-Online-App\android\app\src\debug\AndroidManifest.xml:5:5-77
+11-->C:\Users\stars\Desktop\Finish-Tirumanam-Online-App\android\app\src\debug\AndroidManifest.xml:5:22-75
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->C:\Users\stars\Desktop\Finish-Tirumanam-Online-App\android\app\src\main\AndroidManifest.xml:4:5-67
+12-->C:\Users\stars\Desktop\Finish-Tirumanam-Online-App\android\app\src\main\AndroidManifest.xml:4:22-64
+13    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+13-->[com.facebook.flipper:flipper:0.125.0] C:\Users\stars\.gradle\caches\transforms-3\03f04a3f11198ce3b7c6cedb9b41266b\transformed\jetified-flipper-0.125.0\AndroidManifest.xml:16:5-76
+13-->[com.facebook.flipper:flipper:0.125.0] C:\Users\stars\.gradle\caches\transforms-3\03f04a3f11198ce3b7c6cedb9b41266b\transformed\jetified-flipper-0.125.0\AndroidManifest.xml:16:22-73
+14
+15    <queries>
+15-->[:react-native-image-crop-picker] C:\Users\stars\Desktop\Finish-Tirumanam-Online-App\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-13:15
+16        <intent>
+16-->[:react-native-image-crop-picker] C:\Users\stars\Desktop\Finish-Tirumanam-Online-App\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-12:18
+17            <action android:name="android.media.action.IMAGE_CAPTURE" />
+17-->[:react-native-image-crop-picker] C:\Users\stars\Desktop\Finish-Tirumanam-Online-App\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-73
+17-->[:react-native-image-crop-picker] C:\Users\stars\Desktop\Finish-Tirumanam-Online-App\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:11:21-70
+18        </intent>
+19    </queries>
+20
+21    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+21-->[:react-native-image-crop-picker] C:\Users\stars\Desktop\Finish-Tirumanam-Online-App\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:15:5-81
+21-->[:react-native-image-crop-picker] C:\Users\stars\Desktop\Finish-Tirumanam-Online-App\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:15:22-78
+22    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+22-->[com.google.android.gms:play-services-iid:17.0.0] C:\Users\stars\.gradle\caches\transforms-3\89eb40e51d9a03750fe3a25c96373511\transformed\jetified-play-services-iid-17.0.0\AndroidManifest.xml:23:5-82
+22-->[com.google.android.gms:play-services-iid:17.0.0] C:\Users\stars\.gradle\caches\transforms-3\89eb40e51d9a03750fe3a25c96373511\transformed\jetified-play-services-iid-17.0.0\AndroidManifest.xml:23:22-79
+23    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+23-->[com.android.installreferrer:installreferrer:1.1.2] C:\Users\stars\.gradle\caches\transforms-3\318328e3183509abffbee01fc4efd067\transformed\jetified-installreferrer-1.1.2\AndroidManifest.xml:9:5-110
+23-->[com.android.installreferrer:installreferrer:1.1.2] C:\Users\stars\.gradle\caches\transforms-3\318328e3183509abffbee01fc4efd067\transformed\jetified-installreferrer-1.1.2\AndroidManifest.xml:9:22-107
+24
+25    <application
+25-->C:\Users\stars\Desktop\Finish-Tirumanam-Online-App\android\app\src\main\AndroidManifest.xml:7:5-27:19
+26        android:name="com.tirumanamonline.MainApplication"
+26-->C:\Users\stars\Desktop\Finish-Tirumanam-Online-App\android\app\src\main\AndroidManifest.xml:8:7-38
+27        android:allowBackup="false"
+27-->C:\Users\stars\Desktop\Finish-Tirumanam-Online-App\android\app\src\main\AndroidManifest.xml:12:7-34
+28        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+28-->[androidx.core:core:1.7.0] C:\Users\stars\.gradle\caches\transforms-3\63a3df243d2d102452600006144a86df\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+29        android:debuggable="true"
+30        android:icon="@mipmap/ic_launcher"
+30-->C:\Users\stars\Desktop\Finish-Tirumanam-Online-App\android\app\src\main\AndroidManifest.xml:10:7-41
+31        android:label="@string/app_name"
+31-->C:\Users\stars\Desktop\Finish-Tirumanam-Online-App\android\app\src\main\AndroidManifest.xml:9:7-39
+32        android:roundIcon="@mipmap/ic_launcher_round"
+32-->C:\Users\stars\Desktop\Finish-Tirumanam-Online-App\android\app\src\main\AndroidManifest.xml:11:7-52
+33        android:theme="@style/AppTheme"
+33-->C:\Users\stars\Desktop\Finish-Tirumanam-Online-App\android\app\src\main\AndroidManifest.xml:14:7-38
+34        android:usesCleartextTraffic="true" >
+34-->C:\Users\stars\Desktop\Finish-Tirumanam-Online-App\android\app\src\main\AndroidManifest.xml:13:7-42
+35        <activity
+35-->C:\Users\stars\Desktop\Finish-Tirumanam-Online-App\android\app\src\debug\AndroidManifest.xml:11:9-111
+36            android:name="com.facebook.react.devsupport.DevSettingsActivity"
+36-->C:\Users\stars\Desktop\Finish-Tirumanam-Online-App\android\app\src\debug\AndroidManifest.xml:11:19-83
+37            android:exported="false" />
+37-->C:\Users\stars\Desktop\Finish-Tirumanam-Online-App\android\app\src\debug\AndroidManifest.xml:11:84-108
+38        <activity
+38-->C:\Users\stars\Desktop\Finish-Tirumanam-Online-App\android\app\src\main\AndroidManifest.xml:15:7-26:18
+39            android:name="com.tirumanamonline.MainActivity"
+39-->C:\Users\stars\Desktop\Finish-Tirumanam-Online-App\android\app\src\main\AndroidManifest.xml:16:9-37
+40            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+40-->C:\Users\stars\Desktop\Finish-Tirumanam-Online-App\android\app\src\main\AndroidManifest.xml:18:9-118
+41            android:exported="true"
+41-->C:\Users\stars\Desktop\Finish-Tirumanam-Online-App\android\app\src\main\AndroidManifest.xml:21:9-32
+42            android:label="@string/app_name"
+42-->C:\Users\stars\Desktop\Finish-Tirumanam-Online-App\android\app\src\main\AndroidManifest.xml:17:9-41
+43            android:launchMode="singleTask"
+43-->C:\Users\stars\Desktop\Finish-Tirumanam-Online-App\android\app\src\main\AndroidManifest.xml:19:9-40
+44            android:windowSoftInputMode="adjustResize" >
+44-->C:\Users\stars\Desktop\Finish-Tirumanam-Online-App\android\app\src\main\AndroidManifest.xml:20:9-51
+45            <intent-filter>
+45-->C:\Users\stars\Desktop\Finish-Tirumanam-Online-App\android\app\src\main\AndroidManifest.xml:22:9-25:25
+46                <action android:name="android.intent.action.MAIN" />
+46-->C:\Users\stars\Desktop\Finish-Tirumanam-Online-App\android\app\src\main\AndroidManifest.xml:23:13-65
+46-->C:\Users\stars\Desktop\Finish-Tirumanam-Online-App\android\app\src\main\AndroidManifest.xml:23:21-62
+47
+48                <category android:name="android.intent.category.LAUNCHER" />
+48-->C:\Users\stars\Desktop\Finish-Tirumanam-Online-App\android\app\src\main\AndroidManifest.xml:24:13-73
+48-->C:\Users\stars\Desktop\Finish-Tirumanam-Online-App\android\app\src\main\AndroidManifest.xml:24:23-70
+49            </intent-filter>
+50        </activity>
+51
+52        <provider
+52-->[:react-native-image-crop-picker] C:\Users\stars\Desktop\Finish-Tirumanam-Online-App\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:18:9-26:20
+53            android:name="com.reactnative.ivpusic.imagepicker.IvpusicImagePickerFileProvider"
+53-->[:react-native-image-crop-picker] C:\Users\stars\Desktop\Finish-Tirumanam-Online-App\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:19:13-94
+54            android:authorities="com.tirumanamonline.provider"
+54-->[:react-native-image-crop-picker] C:\Users\stars\Desktop\Finish-Tirumanam-Online-App\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:20:13-60
+55            android:exported="false"
+55-->[:react-native-image-crop-picker] C:\Users\stars\Desktop\Finish-Tirumanam-Online-App\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:21:13-37
+56            android:grantUriPermissions="true" >
+56-->[:react-native-image-crop-picker] C:\Users\stars\Desktop\Finish-Tirumanam-Online-App\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:22:13-47
+57            <meta-data
+57-->[:react-native-image-crop-picker] C:\Users\stars\Desktop\Finish-Tirumanam-Online-App\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:23:13-25:78
+58                android:name="android.support.FILE_PROVIDER_PATHS"
+58-->[:react-native-image-crop-picker] C:\Users\stars\Desktop\Finish-Tirumanam-Online-App\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:24:17-67
+59                android:resource="@xml/ivpusic_imagepicker_provider_paths" />
+59-->[:react-native-image-crop-picker] C:\Users\stars\Desktop\Finish-Tirumanam-Online-App\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:25:17-75
+60        </provider>
+61
+62        <activity
+62-->[:react-native-image-crop-picker] C:\Users\stars\Desktop\Finish-Tirumanam-Online-App\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:28:9-30:72
+63            android:name="com.yalantis.ucrop.UCropActivity"
+63-->[:react-native-image-crop-picker] C:\Users\stars\Desktop\Finish-Tirumanam-Online-App\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:29:13-60
+64            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+64-->[:react-native-image-crop-picker] C:\Users\stars\Desktop\Finish-Tirumanam-Online-App\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:30:13-69
+65        <activity
+65-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\stars\.gradle\caches\transforms-3\37f8ffa3ec488a48f4844b49ea25bc5d\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+66            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+66-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\stars\.gradle\caches\transforms-3\37f8ffa3ec488a48f4844b49ea25bc5d\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+67            android:exported="false"
+67-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\stars\.gradle\caches\transforms-3\37f8ffa3ec488a48f4844b49ea25bc5d\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+68            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+68-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\stars\.gradle\caches\transforms-3\37f8ffa3ec488a48f4844b49ea25bc5d\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+69
+70        <meta-data
+70-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\stars\.gradle\caches\transforms-3\c0b86808731a4a9f10bb9c1bec75b274\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+71            android:name="com.google.android.gms.version"
+71-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\stars\.gradle\caches\transforms-3\c0b86808731a4a9f10bb9c1bec75b274\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+72            android:value="@integer/google_play_services_version" />
+72-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\stars\.gradle\caches\transforms-3\c0b86808731a4a9f10bb9c1bec75b274\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+73
+74        <provider
+74-->[androidx.emoji2:emoji2:1.0.0] C:\Users\stars\.gradle\caches\transforms-3\b6fe4da57007a43d86a66ba4c66459bd\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+75            android:name="androidx.startup.InitializationProvider"
+75-->[androidx.emoji2:emoji2:1.0.0] C:\Users\stars\.gradle\caches\transforms-3\b6fe4da57007a43d86a66ba4c66459bd\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
+76            android:authorities="com.tirumanamonline.androidx-startup"
+76-->[androidx.emoji2:emoji2:1.0.0] C:\Users\stars\.gradle\caches\transforms-3\b6fe4da57007a43d86a66ba4c66459bd\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
+77            android:exported="false" >
+77-->[androidx.emoji2:emoji2:1.0.0] C:\Users\stars\.gradle\caches\transforms-3\b6fe4da57007a43d86a66ba4c66459bd\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
+78            <meta-data
+78-->[androidx.emoji2:emoji2:1.0.0] C:\Users\stars\.gradle\caches\transforms-3\b6fe4da57007a43d86a66ba4c66459bd\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+79                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+79-->[androidx.emoji2:emoji2:1.0.0] C:\Users\stars\.gradle\caches\transforms-3\b6fe4da57007a43d86a66ba4c66459bd\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
+80                android:value="androidx.startup" />
+80-->[androidx.emoji2:emoji2:1.0.0] C:\Users\stars\.gradle\caches\transforms-3\b6fe4da57007a43d86a66ba4c66459bd\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
+81            <meta-data
+81-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\stars\.gradle\caches\transforms-3\bc74a39e1ea23fea00bfcf2682a93948\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+82                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+82-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\stars\.gradle\caches\transforms-3\bc74a39e1ea23fea00bfcf2682a93948\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+83                android:value="androidx.startup" />
+83-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\stars\.gradle\caches\transforms-3\bc74a39e1ea23fea00bfcf2682a93948\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+84        </provider>
+85    </application>
+86
+87</manifest>
